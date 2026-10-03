@@ -1,0 +1,13 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+*.iml
+.DS_Store
+
+# Keystore — never commit signing keys
+*.jks
+*.keystore
+
+# Termux reference source (dev inspection only, not part of the build)
+/tmp/
